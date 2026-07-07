@@ -1278,6 +1278,56 @@ section {
 }
 
 .tools-grid {
+@media (max-width: 576px){
+
+    .tools-grid{
+        display:grid;
+        grid-template-columns:repeat(3,1fr);
+        gap:12px;
+    }
+
+    .tool-card{
+        padding:15px 8px;
+        border-radius:18px;
+    }
+
+    .tool-icon{
+    @media (max-width: 576px){
+
+    .tools-grid{
+        display:grid;
+        grid-template-columns:repeat(3,1fr);
+        gap:12px;
+    }
+
+    .tool-card{
+        padding:15px 8px;
+        border-radius:18px;
+    }
+
+    .tool-icon{
+        width:55px;
+        height:55px;
+        margin-bottom:10px;
+    }
+
+    .tool-card h4{
+        font-size:13px;
+        line-height:1.3;
+    }
+
+}
+        width:55px;
+        height:55px;
+        margin-bottom:10px;
+    }
+
+    .tool-card h4{
+        font-size:13px;
+        line-height:1.3;
+    }
+
+}
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
     gap: 20px;
